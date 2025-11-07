@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.startup-page {
+    background: white;
+    padding: 8rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: transparent;
+    margin-bottom: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: transparent;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    background: linear-gradient(125deg, #84ffcf, #ff75cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+#start-button {
+    padding: 0.8rem 2rem;
+    background: linear-gradient(115deg, #ffcc65, #ACB6E5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#start-button:hover {
+    background: linear-gradient(-115deg, #ffb347, #ACB6E5);
+}
+
+.name-header {
+    color: transparent;
+    margin-bottom: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name-container {
+    background: white;
+    padding: 6rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+input {
+    padding: 0.5rem;
+    width: 80%;
+    margin-bottom: 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#nameBtn {
+    padding: 0.8rem 2rem;
+    background: linear-gradient(115deg, #ffcc65, #f7971e);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.age-container {
+    background: white;
+    padding: 6rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.age-header {
+    color: transparent;
+    margin-bottom: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#ageBtn {
+    padding: 0.8rem 2rem;
+    background: linear-gradient(115deg, #ffcc65, #f7971e);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.password-container {
+    background: white;
+    padding: 6rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.password-header {
+    color: transparent;
+    margin-bottom: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#passwordBtn {
+    padding: 0.8rem 2rem;
+    background: linear-gradient(115deg, #ffcc65, #f7971e);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
